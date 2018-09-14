@@ -9,3 +9,12 @@ eureka:
   fetchRegistry: true
   service-url:
     defaultZone: http://127.0.0.1:8761/eureka/
+rest:
+ service-b:
+  pool_size: 20
+  connection_timeout: 2000
+  read_timeout: 3000
+ service-c:
+  pool_size: 10
+  connection_timeout: 5000
+  read_timeout: 6000
