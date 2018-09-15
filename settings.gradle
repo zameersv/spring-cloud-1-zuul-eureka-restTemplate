@@ -1,5 +1,6 @@
 rootProject.name = 'micro-services'
 include 'registry'
-include 'service-a'
-include 'service-b'
+include 'customer'
+include 'product'
 include 'api-gateway'
+include 'order'

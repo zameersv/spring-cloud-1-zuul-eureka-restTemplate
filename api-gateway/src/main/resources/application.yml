@@ -27,11 +27,15 @@ eureka:
 zuul:
   ignoredServices: '*'
   routes:
-    service-a:
-      path: /service-a/**
-      serviceId: service-a
+    customer:
+      path: /customer/**
+      serviceId: customer
       stripPrefix: false
-    service-b:
-          path: /service-b/**
-          serviceId: service-b
-          stripPrefix: false
+    order:
+      path: /order/**
+      serviceId: order
+      stripPrefix: false
+    product:
+      path: /product/**
+      serviceId: product
+      stripPrefix: false
