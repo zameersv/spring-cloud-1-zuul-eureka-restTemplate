@@ -32,9 +32,7 @@
 **/target/
 **/out/
 **/build/
-*.jar
 *.zip
 
 #gradle files
 .gradle/
-**/gradle/
